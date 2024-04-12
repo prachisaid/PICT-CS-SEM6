@@ -1,0 +1,34 @@
+public class Calculator {
+    public integer firstNumber{get;set;}
+    public integer secondNumber{get;set;}
+    public integer result{get;set;}
+    public Boolean showResult { get; set; }
+    public List<String> errorMessages { get; set; }
+    
+    public Calculator() {
+        errorMessages = new List<String>();
+    }
+
+    public void Addition()
+    {
+        result=firstNumber+secondNumber;
+    }
+    public void Subtraction()
+    {
+        result=firstNumber-secondNumber;
+    }
+    public void Multiplication()
+    {
+        result=firstNumber*secondNumber;
+    }
+	public void Division() {
+        if (secondNumber != 0) {
+            result = firstNumber / secondNumber;
+            showResult = true;
+        } else {
+            apexpages.addMessage(new ApexPages.message(Apexpages.Severity.ERROR,'Cannot divide by 0'));
+          	// errorMessages.add('Cannot divide by zero.');
+            showResult = false;
+        }
+    }
+}
