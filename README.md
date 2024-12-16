@@ -1,1 +1,1 @@
-Practical Sem
+Practical Seme
