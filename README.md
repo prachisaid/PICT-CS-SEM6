@@ -1,1 +1,1 @@
-Practical Semes
+Practical Semest
