@@ -1,1 +1,1 @@
-Practical Semeste
+Practical Semester
