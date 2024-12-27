@@ -1,1 +1,1 @@
-Practical Semester 6    
+Practical Semester 6     
